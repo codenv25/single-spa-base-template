@@ -1,0 +1,12 @@
+<single-spa-router>
+  <main>
+    <redirect from="/" to="/login"></redirect>
+    <redirect from="/dashboard/login" to="/login"></redirect>
+    <route path="login">
+      <application name="@codenv/auth-mfe"></application>
+    </route>
+    <route path="dashboard">
+      <application name="@codenv/dashboard-mfe"></application>
+    </route>
+  </main>
+</single-spa-router>
