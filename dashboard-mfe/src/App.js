@@ -17,7 +17,7 @@ const App = () => {
     }
   }, [navigate]);
 
-  return isAuthenticated ? <DashboardScreen /> : "loading...";
+  return isAuthenticated && <DashboardScreen />;
 };
 
 export default App;
