@@ -2,6 +2,12 @@
 
 ### 1. Clone the Repository
 
+### 2. Run npm install in the parent folder
+
+```bash
+npm install
+```
+
 ### 2. Navigate to each project and Run
 
 ```bash
