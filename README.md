@@ -8,13 +8,13 @@
 npm install
 ```
 
-### 2. Navigate to each project and Run
+### 3. Navigate to each project and Run
 
 ```bash
 npm install
 ```
 
-### 2. Navigate to Parent package.json and Run
+### 4. Navigate to Parent package.json and Run
 
 ```bash
 npm run start:all
